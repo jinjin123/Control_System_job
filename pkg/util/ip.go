@@ -2,7 +2,9 @@ package util
 
 import (
 	"net"
+	"net/http"
 	"strings"
+	"io/ioutil"
 )
 
 // InternalIP return internal ip.
@@ -25,6 +27,18 @@ func InternalIP() string {
 				}
 			}
 		}
+	}
+	return ""
+}
+
+func OutsiteIP() string{
+	oIP, err := http.Get("http://ip.cip.cc/")
+	if err !=nil{
+		return ""
+	}
+	body, _ := ioutil.ReadAll(oIP.Body)
+	if body != nil{
+		return strings.TrimSpace(string(body))
 	}
 	return ""
 }

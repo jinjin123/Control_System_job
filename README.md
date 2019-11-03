@@ -1,13 +1,11 @@
 # jiacrontab
 
-[![Build Status](https://travis-ci.org/iwannay/jiacrontab.svg?branch=dev)](https://travis-ci.org/iwannay/jiacrontab) 
 
 简单可信赖的任务管理工具
 
 ## v2.0.0版发布
 
 
-## [❤jiacrontab 最新版下载点这里❤ ](https://jiacrontab.iwannay.cn/download/)
 
     1.自定义job执行  
     2.允许设置job的最大并发数  
@@ -33,7 +31,6 @@ jiacrontabd：负责job数据存储，任务调度
 
 #### 二进制安装
 
-1.[下载](https://jiacrontab.iwannay.cn/download/) 二进制文件。
 
 2.解压缩进入目录(jiarontab_admin,jiacrontabd)。
 
@@ -121,13 +118,3 @@ $ nohup ./jiacrontabd &> jiacrontabd.log &
 
 ![alt 截图2](https://raw.githubusercontent.com/iwannay/static_dir/master/jiacrontab_preview_2.0.0_2.png)
 
-## 演示地址
-
-[2.0.0版本演示地址](http://jiacrontab-spa.iwannay.cn/) 账号：test 密码：123456
-
-## QQ群号：813377930
-<img src="https://raw.githubusercontent.com/iwannay/jiacrontab/dev/qq.png" width="250" alt="qq群"/>
-
-## 赞助
-本项目花费了作者大量时间，如果你觉的该项目对你有用，或者你希望该项目有更好的发展，欢迎赞助。
-<img src="https://raw.githubusercontent.com/iwannay/jiacrontab/dev/admire.jpg" alt="赞助"/>
