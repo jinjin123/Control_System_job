@@ -1,4 +1,4 @@
-# jiacrontab
+# System control job
 
 
 简单可信赖的任务管理工具
@@ -25,6 +25,7 @@
 jiacrontab 由 jiacrontab_admin，jiacrontabd 两部分构成，两者完全独立通过 rpc 通信  
 jiacrontab_admin：管理后台向用户提供web操作界面  
 jiacrontabd：负责job数据存储，任务调度  
+jiacrontabo：外网机器 负责job数据存储，任务调度  
 
 
 ## 安装
